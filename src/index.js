@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={styles.content}>
-        It works...Good!!!
+        It works...Good!!! Color Changed....
       </div>
     );
   }
