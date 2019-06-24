@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import styles from 'index.scss';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className={styles.content}>
         It works...Good!!!
       </div>
     );
